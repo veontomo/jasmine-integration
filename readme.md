@@ -67,7 +67,7 @@ To show the contents of the page:
 	"jasmine-integration": "0.0.2"
 	````
 - Install node modules: `npm install`
- 
+
 - Add the following to your Gruntfile:
 
 	````
@@ -82,9 +82,9 @@ Assuming test files are called *Spec.js and the app is a node app. Add the follo
 spec_files:
   - "**/*[Ss]pec.{js,coffee}"
 
-application_port: 8080
+application_port: 8888
 
-server_command: "node server.js"
+server_command: "node src/server.js"
 ````
 
 ## Running tests

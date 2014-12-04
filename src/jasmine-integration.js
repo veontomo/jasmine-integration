@@ -109,9 +109,13 @@ function Iframe() {
 }
 
 function visit(path) {
-  var iframe = new Iframe();
-  iframe.setSrc(document.location.origin + '/' + path);
+  alert('dmdd');
+  // var jq = document.createElement('script');
+  // jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
+  // document.getElementsByTagName('head')[0].appendChild(jq);
 
-  return iframe;
+  // var iframe = new Iframe();
+  // iframe.setSrc(document.location.origin + '/' + path);
+  // return iframe;
 }
 
