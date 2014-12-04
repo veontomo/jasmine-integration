@@ -27,7 +27,9 @@ var server = require('http').createServer(function(req, res) {
 console.log("listening on port " + configuration.jasmine_port);
 server.listen(configuration.jasmine_port);
 
-connect.createServer(
-    connect.static(dir)
-).listen(configuration.proxy_port);
+// connect.createServer(
+//     connect.static(dir)
+// ).listen(configuration.proxy_port);
 
+var app = connect().use(connect.static(dir));
+app.listen(configuration.proxy_port);

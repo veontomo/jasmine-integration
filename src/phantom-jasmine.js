@@ -1,5 +1,5 @@
 var page = require('webpage').create(),
-    url = 'http://localhost:8888',
+    url = 'http://www.google.com',
     system = require("system"),
     fs = require("fs"),
     args = {},
